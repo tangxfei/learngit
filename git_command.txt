@@ -34,4 +34,15 @@ git rm  filename // to delete file
 ----github ssh access--
 ssh-keygen -t rsa -C "xenos_tang@163.com"
 
-git remote add origin git@github.com:michaelliao/learngit.git
+git remote add origin git@github.com:michaelliao/learngit.git  //guanlian remote github repository
+
+git push -u origin master //push all files to origin master  new is add -u 
+
+----------------------------------------
+要关联一个远程库，git remote add origin git@server-name:path/repo-name.git；
+
+关联后，使用命令git push -u origin master第一次推送master分支的所有内容；
+
+此后，每次本地提交后，只要有必要，就可以使用命令git push origin master推送最新修改；
+
+
