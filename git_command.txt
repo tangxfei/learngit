@@ -1,0 +1,37 @@
+---git config--
+
+$ git config --global user.name "Your Name"
+$ git config --global user.email "email@example.com"
+
+git init //create repository
+
+
+--two steps to move the file to repository
+git add filename1 filename2 //add file to repository
+git commit -m "commit message"  //commit several add files with message
+
+git status  //view change for now
+
+git diff filename  //view the file diff 
+
+git log
+
+--go back to old version 
+git reset --hard HEAD^ //HEAD^ HEAD^^ HEAD~100   head is now version
+git reset --hard idnum  //idnum via git log or git reflog 
+
+git reflog //show history command to get future id num
+
+git diff HEAD --readme.txt //could see the workarea and repository diff
+
+!! git checkout -- filename   //file via repository to workarea  must have --   fugai
+
+!! git reset HEAD filename  //delete templator file,unstage file to workarea   --huitui
+
+
+git rm  filename // to delete file
+
+----github ssh access--
+ssh-keygen -t rsa -C "xenos_tang@163.com"
+
+git remote add origin git@github.com:michaelliao/learngit.git
