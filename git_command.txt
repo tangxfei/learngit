@@ -89,3 +89,13 @@ git log --graph --pretty=oneline --abbrev-commit  //show dot graph
 用git log --graph命令可以看到分支合并图。
 
 
+---------------------------------------------------
+could templare hide not end workarea   to create branch 
+
+git stash  //zhanchun workarea
+git stash list //show zhanchun workarea
+git stash apply //the zhanchun workarea is alive  if delete use git stash drop 
+git stash pop // get and drop 
+git stash apply stash@{0}
+
+
