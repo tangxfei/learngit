@@ -32,7 +32,7 @@ git diff HEAD --readme.txt //could see the workarea and repository diff
 git rm  filename // to delete file
 
 ----github ssh access--
-ssh-keygen -t rsa -C "xenos_tang@163.com"
+ssh-keygen -t rsa -C "email@163.com"
 
 git remote add origin git@github.com:michaelliao/learngit.git  //guanlian remote github repository
 
