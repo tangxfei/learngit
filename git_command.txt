@@ -51,5 +51,32 @@ local clone
 git clone git@github.com:tangxfei/gitskills  //clone the remote github repository
 
 ------------------------
-git checkout -b dev   //creative fenzhi
+git checkout -b dev   //creative fenzhi   git checkout -- filename 
+    git branch dev  //
+    git checkout dev 
+
+git branch //show branch
+
+
+-------------------------------------branck merge---
+git merge dev    
+
+git branch -b dev //delete branch 
+
+Git鼓励大量使用分支：
+
+查看分支：git branch
+
+创建分支：git branch <name>
+
+切换分支：git checkout <name>
+
+创建+切换分支：git checkout -b <name>
+
+合并某分支到当前分支：git merge <name>
+
+删除分支：git branch -d <name>
+
+
+
 
