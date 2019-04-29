@@ -97,5 +97,7 @@ git stash list //show zhanchun workarea
 git stash apply //the zhanchun workarea is alive  if delete use git stash drop 
 git stash pop // get and drop 
 git stash apply stash@{0}
-
+----------------------------------------------
+if branch is not merge ,then use 
+git branch -D branchname   //otherwise it doesnt delete
 
