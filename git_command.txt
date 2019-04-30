@@ -77,8 +77,20 @@ Git鼓励大量使用分支：
 
 删除分支：git branch -d <name>
 
+<<<<<<< HEAD
 ---------------------------------------xiezuo -----------
 git branch --set-upstream-to <branch-name> origin/<branch-name> //本地分支与远程连接
+=======
+--------------------------------------
+see remote info
+git remote
+git remote -v
+
+
+
+
+
+>>>>>>> dev
 
 因此，多人协作的工作模式通常是这样：
 
