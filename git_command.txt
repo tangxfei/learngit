@@ -32,7 +32,7 @@ git diff HEAD --readme.txt //could see the workarea and repository diff
 git rm  filename // to delete file
 
 ----github ssh access--
-ssh-keygen -t rsa -C "xenos_tang@163.com"
+ssh-keygen -t rsa -C "email@163.com"
 
 git remote add origin git@github.com:michaelliao/learngit.git  //guanlian remote github repository
 
@@ -319,5 +319,26 @@ git config --global --list
 
 要像SVN那样变态地控制权限，用Gitolite。
 
+-------------------------------------
+git log --graph --pretty=oneline --abbrev-commit  //show dot graph
+
+当Git无法自动合并分支时，就必须首先解决冲突。解决冲突后，再提交，合并完成。
+
+解决冲突就是把Git合并失败的文件手动编辑为我们希望的内容，再提交。
+
+用git log --graph命令可以看到分支合并图。
+
+
+---------------------------------------------------
+could templare hide not end workarea   to create branch 
+
+git stash  //zhanchun workarea
+git stash list //show zhanchun workarea
+git stash apply //the zhanchun workarea is alive  if delete use git stash drop 
+git stash pop // get and drop 
+git stash apply stash@{0}
+----------------------------------------------
+if branch is not merge ,then use 
+git branch -D branchname   //otherwise it doesnt delete
 
 gitlab
